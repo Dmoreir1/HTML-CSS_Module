@@ -18,10 +18,19 @@ html {
     border-style: solid;
 }
 
-th {
-    background-color: white;
-    color:black
+
+
+
+td, {
+    background-color: transparent;
+    border: 2px solid white;
 }
+th {
+    background-color:white;
+    color:black;
+    fill:white;
+    border-color:white
+    }
 
 #body1 {
     display: flex;
@@ -38,12 +47,12 @@ th {
     border-width: thin;
 }
 
-#main-table{
+table, th, td {
     border: 1px solid white;
-    background-color: transparent;
-    padding: 5px;
-    border-spacing: 15px;
-    /* border-collapse: collapse;  */
+    padding: 15px;
+    /* border-spacing: 15px; */
+    border-collapse: collapse; 
+    
 
 
     
@@ -69,10 +78,10 @@ th {
     align-items: center;
     background-color:lightseagreen;
     margin: 10px; 
-    height: 40px;
+    height: 30px;
     flex-basis: 80px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 15px;
     border-width:thin;
     border-style: solid;
 }
