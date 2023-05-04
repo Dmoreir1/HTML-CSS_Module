@@ -11,11 +11,22 @@
 <main>
     <header id="logo">
         <img src="/images/logo.png" alt="">
-
     </header>
-    <body>
-        <div>
+    <body id="loginbody">
+        <div id="loginform">
+            <!-- Username form and gray box -->
+            <form action="/action_page.php">
+                <label for="username">Username</label><br>
+                <input type="text" id="fname" name="fname" value="Username"><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="lname" name="lname" value="Password"><br><br>
+                <input id="submit" type="submit" value="Submit">
+              </form>
 
+        </div>
+
+        <div id=footer>
+            <p>Copyright 2022</p>
         </div>
     </body>
 </main>

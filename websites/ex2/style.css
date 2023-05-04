@@ -1,0 +1,46 @@
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+#logo{
+    display: flex;
+    justify-content: left;
+    background-color:white;
+    height: 100px;
+    flex-basis: 80px;
+    /* padding: 10px; */
+    /* border-width:thin;
+    border-style: solid; */
+}
+
+​
+
+#loginform {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    height: 75%;
+  }
+
+form {
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    /* display: inline-block; */
+    text-align: right;
+    float:left;
+    
+  }
+
+#submit {
+    background-color: #0072e1;
+    border-color: gray;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: thin;
+}
