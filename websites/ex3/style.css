@@ -1,5 +1,7 @@
 html{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0%;
+    padding:0%;
 }
 
 h1 {
@@ -37,21 +39,21 @@ h1 {
     background-color:#ffcdd2;
     color: #d83519;
     /* margin: 10px;  */
-    height: 45%;
+    height: 30%;
     flex-basis:1;
-    padding: 100px;
+    padding: 25%;
     text-align: center;
-    width:100%;
+    width:120%;
     
 }
 
 #redbutton {
     color:#ffcdd2;
     background-color: #d83519;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
     border: none;
-    padding: 8px 12px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -69,21 +71,21 @@ h1 {
     background-color:#2941ab;
     color: #1ed760;
     font-weight: bold; 
-    height: 45%;
+    height: 30%;
     /* margin: 10px;  */
     /* flex-basis: 80px; */
-    padding: 100px;
-    width: 100%;
+    padding: 25%;
+    width: 120%;
     text-align: center;
 }
 
 #bluebutton {
     color:white;
     background-color: #1ed760;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
     border: none;
-    padding: 8px 12px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;

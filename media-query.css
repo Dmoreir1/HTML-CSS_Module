@@ -10,7 +10,7 @@ div {
 @media screen and (max-width: 400px) {
    /* Change the font size if the screen is less than 400 px */
    div {
-       font-size: 30px;
-       background-color: red;
+       font-size: 60px;
+       background-color:fuchsia;
    }
 } 
